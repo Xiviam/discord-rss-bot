@@ -121,6 +121,6 @@ async function sendDiscordNotification() {
   }
 }
 
-setInterval(sendDiscordNotification, 30 * 1000);
+setInterval(sendDiscordNotification, 120 * 1000);
 
 sendDiscordNotification();
